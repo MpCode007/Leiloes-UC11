@@ -1,2 +1,19 @@
-# Leiloes-UC11
-Repositório do projeto Sistema de Leilões desenvolvido para a UC11. Implementação em Java (NetBeans) com banco MySQL (uc11.sql). Contém código-fonte, script do banco e instruções para execução.
+# Sistema de Leilões (UC11)
+
+Este repositório contém o código-fonte do **Sistema de Leilões** desenvolvido para a disciplina UC11. O projeto foi implementado em **Java** (NetBeans) e utiliza **MySQL** para persistência, com o script de banco fornecido em `uc11.sql`.
+
+## Tecnologias utilizadas
+- Java (NetBeans)
+- MySQL / MariaDB
+- JDBC
+
+## Estrutura do repositório
+- `src/` — código-fonte Java (projeto NetBeans)
+- `uc11.sql` — script para criar e popular o banco de dados `uc11` (tabela `produtos`)
+- `README.md` — este arquivo
+
+## Como importar o banco de dados
+- Via MySQL Workbench: **File → Run SQL Script** → selecione `uc11.sql`.  
+- Via linha de comando MySQL:
+```bash
+mysql -u <usuario> -p < uc11.sql
