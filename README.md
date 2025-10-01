@@ -11,9 +11,3 @@ Este repositório contém o código-fonte do **Sistema de Leilões** desenvolvid
 - `src/` — código-fonte Java (projeto NetBeans)
 - `uc11.sql` — script para criar e popular o banco de dados `uc11` (tabela `produtos`)
 - `README.md` — este arquivo
-
-## Como importar o banco de dados
-- Via MySQL Workbench: **File → Run SQL Script** → selecione `uc11.sql`.  
-- Via linha de comando MySQL:
-```bash
-mysql -u <usuario> -p < uc11.sql
